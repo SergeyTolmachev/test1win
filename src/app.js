@@ -19,5 +19,5 @@ app.use(async (ctx) => {
 });
 
 app.listen(3000, () => {
-  console.log('Сервер успешно запущен');
+  console.log('Сервер запущен на порте 3000');
 });
