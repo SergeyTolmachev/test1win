@@ -10,8 +10,10 @@ router.get('/book/:bookId', bookController.getBook);
 router.post('/book', bookController.createBook);
 
 
+router.update('/book?:dookId', bookController.updateBook);
 
-router.put('/book/:bookId', bookController.updateBook);
+
+// router.put('/book/:bookId', bookController.updateBook);
 
 module.exports = router;
 
