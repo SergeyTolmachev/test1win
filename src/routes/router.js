@@ -16,3 +16,4 @@ router.put('/book/:bookId', bookController.updateBook);
 module.exports = router;
 
 
+console.log('test');
